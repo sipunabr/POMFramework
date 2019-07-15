@@ -32,7 +32,7 @@ public class UIBaseClass {
 			
 		}else if (browserName.equalsIgnoreCase("Chrome")) {
 			
-			System.setProperty("webdriver.chrome.driver", "C:\\Work\\ChromeDriver\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "resources\\drivers\\chromedriver.exe");
 			DesiredCapabilities capabilities = DesiredCapabilities.chrome();
 			LoggingPreferences logPref = new LoggingPreferences();
 			logPref.enable(LogType.BROWSER, Level.ALL);
